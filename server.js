@@ -15,4 +15,4 @@ app.get('/deploy', (req, res) => {
     exec('git pull origin master');
 })
 
-server.listen(8080);
+server.listen(8000);
