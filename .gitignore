@@ -2,3 +2,4 @@
 .idea
 raw-media
 sftp-config.json
+/node_modules
