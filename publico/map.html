@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>	
+</head>
+<body>
+	
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js'></script>
+	<script>
+		var w = 500;
+		var h = 600;
+		//Define map projection
+		var projection = d3.geo.equirectangular().translate([600, 200]).scale(280);
+
+		//Define path generator
+		var path = d3.geo.path()					
+					.projection(projection);
+		//Create SVG element
+		var svg = d3.select("body")
+			.append("svg")
+			.attr("width", w)
+			.attr("height", h);
+
+		//Load in GeoJSON data
+		d3.json("data/map.json", function(data) {
+		console.log(data)
+			//Bind data and create one path per GeoJSON feature
+			svg.selectAll("path")
+	  		.data(data.features)
+	   		.enter()
+	   		.append("path")
+	   		.attr("d", path)
+		});
+	</script>	
+</body>
+</html>
