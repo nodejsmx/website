@@ -78,9 +78,8 @@ p a {
 }
 
 .social-icons a {
-  color: #3F4135;
-  display: inline-block;
-  margin: 0 auto;
+  color: #7F8175;
+  margin: 0 9px;
 }
 
 .social-icons a:hover {
@@ -141,7 +140,7 @@ margin-bottom: 35px;
 }
 
 .evento .lugar {
-color:#94ca2e;
+  color: #7F8175;;
 }
 
 .evento p.resumen {
@@ -166,6 +165,10 @@ margin-bottom: 0;
   position: absolute;
   right: 0;
   top: 0;
+}
+/* Meetup */
+.framed-mup-widget {
+  width: 307px;
 }
 
 /* Media queries (Must be last) */
