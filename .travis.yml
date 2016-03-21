@@ -1,0 +1,9 @@
+# This is the travis-ci.com file used to test the project
+# Feel free to modify in pro of the community
+
+before_script:
+  - nmp install -g mocha
+
+language: node_js
+node_js:
+  - "5"
