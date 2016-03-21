@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js",
+    "test": "./node_modules/.bin/mocha",
     "start": "node index.js"
   },
   "repository": {
@@ -28,5 +28,9 @@
     "babel": "^5.8.20",
     "express": "^4.13.3",
     "shelljs": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
   }
 }
