@@ -16,14 +16,9 @@ var client = new Twitter({
 
 module.exports = {
 	read:function (req,res){
-		client.stream('statuses/filter', {track: 'nodejsmx'},  function(stream){
-		  stream.on('data', function(tweet) {
-		    res.send(tweet);
-		  });
-
-		  stream.on('error', function(error) {
-		    res.send(error);
-		  });
+		client.get('search/tweets', {q: '#nodejsmx'}, function(error, tweets, response){
+		  if(error) console.log( error);
+		  res.send(tweets);  // Raw response object. 
 		});
 
 	}
