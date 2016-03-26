@@ -16,7 +16,10 @@ var client = new Twitter({
 
 module.exports = {
 	read:function (req,res){
-		client.get('search/tweets', {q: '#nodejsmx'}, function(error, tweets, response){
+		client.get('search/tweets', {
+			q: '#nodejsmx'
+			//since_id:'713804253832196100'
+		}, function(error, tweets, response){
 		  if(error) console.log( error);
 		  res.send(tweets);  // Raw response object. 
 		});
