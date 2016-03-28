@@ -1,6 +1,6 @@
 
 
-var map = L.map('map').setView([25.657715, -100.366785], 4);
+var map = L.map('map').setView([25.657715, -100.366785], 5);
 window.arrTwitts = [];
 
 L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
