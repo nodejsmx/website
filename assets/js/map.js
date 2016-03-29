@@ -13,14 +13,16 @@
     layer.addTo(map);
 
     $(function() {
-      _loadTweets();
+      _loadTweets(function (tweets) {
+        _addPoints(tweets);
+      });
     });
   }
 
-  function _loadTweets() {
+  function _loadTweets(callback) {
     $.get('/tweets/read', function(data, status){
       var tweets = _mapTweets(data.statuses);
-      _addPoints(tweets);
+      callback(tweets);
     });
   }
 
