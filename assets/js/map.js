@@ -1,40 +1,63 @@
+(function($, w) {
+  var map;
 
+  function _init() {
+    map = w.L.map('map').setView([25.657715, -100.366785], 4);
+    var layer = L.tileLayer(
+        'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+        {
+          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+          subdomains: 'abcd',
+          maxZoom: 19
+        });
+    layer.addTo(map);
 
-var map = L.map('map').setView([25.657715, -100.366785], 4);
-window.arrTwitts = [];
+    $(function() {
+      _loadTweets();
+    });
+  }
 
-L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-  subdomains: 'abcd',
-  maxZoom: 19
-}).addTo(map);
+  function _loadTweets() {
+    $.get('/tweets/read', function(data, status){
+      var tweets = _mapTweets(data.statuses);
+      _addPoints(tweets);
+    });
+  }
 
+  function _mapTweets(data) {
+    var mapped = [];
 
+    data.forEach(function (tweet) {
+      var place = tweet.place;
 
-$(document).ready(function(){
-	$.get('/twitter/read',function(data,status){
-		console.log(data);
-		for(i in data.statuses){
-			t = data.statuses[i]
-			if(t.place){
-				arrTwitts.push({
-					image:t.user.profile_image_url,
-					point:t.place.bounding_box.coordinates[0][0]
-				});
-			}
-		}
-		addPoints(arrTwitts)
-	});
-});
+      if (place) {
+        var latlng = [
+          place.bounding_box.coordinates[0][0][1],
+          place.bounding_box.coordinates[0][0][0],
+        ];
 
+        mapped.push({
+          image: tweet.user.profile_image_url,
+          point: latlng
+        });
+      }
+    });
 
-function addPoints(arr){
-	for(i in arr){
-		i = arr[i];
-		var marker = L.marker([i.point[1],i.point[0]],{icon: L.icon({
-		    iconUrl: i.image,
-		})}).addTo(map);
-		console.log('marker',i.point[0],i.point[1],i,marker)
+    return mapped;
+  }
 
-	}
-}
+  function _addPoints(tweets) {
+    tweets.forEach(function (tweet) {
+      var marker = w.L.marker(
+        tweet.point,
+        {
+          icon: w.L.icon({iconUrl: tweet.image})
+        }
+      );
+
+      marker.addTo(map);
+    });
+  }
+
+  _init();
+})(jQuery, window);
