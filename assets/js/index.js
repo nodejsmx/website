@@ -1,3 +1,6 @@
+var socketIO = require('./dependencies/socket.io');
+var io = require('./dependencies/sails.io')(socketIO);
+
 (function($, w) {
   var map;
 
