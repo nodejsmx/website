@@ -11,6 +11,7 @@
  *   https://github.com/balderdashy/sails-docs/blob/master/anatomy/myApp/tasks/pipeline.js.md
  */
 
+var browserifyMainFile = '.tmp/public/js/index.js';
 
 // CSS files to inject in order
 //
@@ -72,4 +73,4 @@ module.exports.templateFilesToInject = templateFilesToInject.map(function(tplPat
   return require('path').join('assets/',tplPath);
 });
 
-
+module.exports.browserifyMainFile = browserifyMainFile;
