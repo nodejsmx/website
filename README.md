@@ -1,7 +1,7 @@
-Nodejsmx ver 2.0
+﻿Nodejsmx ver 2.0
 ===================
 
-El objetivo de la versión actual (version 1) de la web ha sido una simple presentación semi-estática para dar a conocer los pocos eventos que ha habido y presentar a los organizadores principales por ciudad y mientras aclaraba las ideas y consultaba con los demás qué era lo mejor para la comunidad, para todos nosotros, esta versión seguirá online mientras desarrollamos la versión 2 entre todos.
+El objetivo de la versión actual de la web ha sido una simple presentación semi-estática para dar a conocer los pocos eventos que ha habido y presentar a los organizadores principales por ciudad y mientras aclaraba las ideas y consultaba con los demás qué era lo mejor para la comunidad, para todos nosotros, esta versión seguirá online mientras desarrollamos la versión 2 entre todos.
 
 Con la nueva versión de la web, el objetivo es darle visibilidad a todos los participantes de una manera meritocrática.
 Es como un juego, tu participación vale y ese valor se ve reflejado visualmente en tiempo real en el mapa; 
