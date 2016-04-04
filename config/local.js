@@ -82,10 +82,10 @@ module.exports = {
 
    // environment: process.env.NODE_ENV || 'development'
   twitter: {
-    consumer_key: 'DNmrfrxBOA6C6eEbfF8K9Lim0',
-    consumer_secret: '48QEbF9fU1t0pth1gTC74IFlbXIgk3BwHuEIpsJsjjleZRioNZ',
-    access_token_key: '2788970869-nDLkohxBXxMEYaiotvWJHBfqYNAWjTnl2dym2Mt',
-    access_token_secret: '7Oj3PdIp1NiWOOD79AeZ7OzSlex2WDOOgIfqcaFrpSQ40'
+    consumer_key: process.env.consumer_key || '',
+    consumer_secret: process.env.consumer_secret || '',
+    access_token_key: process.env.access_token_key || '',
+    access_token_secret: process.env.access_token_secret || ''
   }
 
 };
