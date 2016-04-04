@@ -13,6 +13,7 @@ var io = require('./dependencies/sails.io')(socketIO);
           subdomains: 'abcd',
           maxZoom: 19
         });
+    map.setMaxBounds(map.getBounds());
     layer.addTo(map);
 
     $(function() {
