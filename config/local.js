@@ -26,6 +26,16 @@
  * For more information, check out:
  * http://sailsjs.org/#!/documentation/anatomy/myApp/config/local.js.html
  */
+/* Add a .env file with enviroment variables using the following format
+    
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASS=s1mpl3
+
+    For more info consult https://github.com/motdotla/dotenv
+*/
+
+require('dotenv').config();
 
 module.exports = {
 
