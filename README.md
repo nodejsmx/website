@@ -1,7 +1,27 @@
-﻿Nodejsmx ver 2.0
-===================
+﻿Nodejsmx website 2.0
+======================
+New, shiny and interactive nodejsmx's comunity website.
 
-El objetivo de la versión actual de la web ha sido una simple presentación semi-estática para dar a conocer los pocos eventos que ha habido y presentar a los organizadores principales por ciudad y mientras aclaraba las ideas y consultaba con los demás qué era lo mejor para la comunidad, para todos nosotros, esta versión seguirá online mientras desarrollamos la versión 2 entre todos.
+### Installation
+
+```
+npm install
+```
+
+### Running the server
+
+```
+sails lift
+```
+
+### Running tests
+
+```
+npm test
+```
+
+Roadmap
+----------
 
 Con la nueva versión de la web, el objetivo es darle visibilidad a todos los participantes de una manera meritocrática.
 Es como un juego, tu participación vale y ese valor se ve reflejado visualmente en tiempo real en el mapa; 
