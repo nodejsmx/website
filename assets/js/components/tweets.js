@@ -18,6 +18,7 @@ function _loadTweets(callback) {
 }
 
 function _mapTweets(data) {
+  data = data || [];
   var mapped = [];
 
   data.forEach(function (tweet) {
