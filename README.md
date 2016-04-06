@@ -22,33 +22,23 @@ npm test
 
 Roadmap
 ----------
+The goal of the 2.0 version is to show the community's activity through an interactive map. The following events will be displayed:
 
-Con la nueva versión de la web, el objetivo es darle visibilidad a todos los participantes de una manera meritocrática.
-Es como un juego, tu participación vale y ese valor se ve reflejado visualmente en tiempo real en el mapa; 
+- Tweets (containing the hashtag #nodejsmx).
+- Git commits (from the nodejsmx github organization).
+- A list of future meetups (containing the tags/texts node, nodejs, nodejsmx). 
 
-- Tus twits (#nodejsmx).
-- Tus git commits.
-- Tu asistencia a las juntas. 
 
-Toda tu colaboración hace la diferencia, es mostrado publicamente y se ve bonito! No solamente es jugar por jugar, tu actividad te puede conseguir tu siguiente trabajo u oportunidad de startup.
-
-#### Faltan por ahí unas ideas que me dieron Dani Osorio y Fernando Flores
-
-----------
-
-Diseño
+UI specs
 --------
-Pagina principal antes de iniciar sesión
+Home page
 ![Página normal sin iniciar sesión](https://i.imgur.com/AkKplqc.jpg)
 
-Sesión iniciada
+Home page with a logged in user
 ![Página con sesión iniciada](https://i.imgur.com/uBP61XA.jpg)
 
-Explicación
+Badges/pins explanation
 ![Explicación de los elementos visuales](https://i.imgur.com/nSFgsMx.jpg)
 
-Ejemplo de detalle mostrado al poner el mouse sobre cualquier simbolito
+Showing the details on-clicking a badge/pin
 ![Ejemplo de detalle mostrado al poner el mouse sobre cualquier simbolito](https://i.imgur.com/RjNKs42.jpg)
-
-### Y para los perfiles de usuario viene una sorpresa!
-
