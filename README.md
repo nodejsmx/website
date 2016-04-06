@@ -22,7 +22,7 @@ npm test
 
 ### Coding standards
 
-we follow the ![airbnb es5 coding style](https://github.com/airbnb/javascript/tree/master/es5)
+we follow the [airbnb es5 coding style](https://github.com/airbnb/javascript/tree/master/es5)
 
 Roadmap
 ----------
