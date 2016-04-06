@@ -20,6 +20,10 @@ sails lift
 npm test
 ```
 
+### Coding standards
+
+we follow the ![airbnb es5 coding style](https://github.com/airbnb/javascript/tree/master/es5)
+
 Roadmap
 ----------
 The goal of the 2.0 version is to show the community's activity through an interactive map. The following events will be displayed:
