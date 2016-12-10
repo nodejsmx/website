@@ -1,0 +1,1838 @@
+[
+  {
+    "scope": "https://api.twitter.com:443",
+    "method": "get",
+    "path": "/1.1/search/tweets.json?q=nodejsmx",
+    "body": "",
+    "status": 200,
+    "response": {
+      "statuses": [
+        {
+          "created_at": "Sun Mar 27 04:03:36 +0000 2016",
+          "id": 713939503069532200,
+          "id_str": "713939503069532161",
+          "text": "true, @docker documentation IS surprisingly enjoyable 🤓  https://t.co/ErXBcGW0w2",
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+              {
+                "screen_name": "docker",
+                "name": "Docker",
+                "id": 1138959692,
+                "id_str": "1138959692",
+                "indices": [
+                  6,
+                  13
+                ]
+              }
+            ],
+            "urls": [
+              {
+                "url": "https://t.co/ErXBcGW0w2",
+                "expanded_url": "https://twitter.com/nodejsmx/status/713935575745585152",
+                "display_url": "twitter.com/nodejsmx/statu…",
+                "indices": [
+                  57,
+                  80
+                ]
+              }
+            ]
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 741684798,
+            "id_str": "741684798",
+            "name": "Jorge Arturo",
+            "screen_name": "JorgeArtware",
+            "location": "0x1008FF1B",
+            "description": "// Autodidact & nomad; Making ZenX of the universe. // Community organizer @nodejsmx [spanish=@retamozart]",
+            "url": "https://t.co/W0djGBHjOJ",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "https://t.co/W0djGBHjOJ",
+                    "expanded_url": "http://jorgeartware.com",
+                    "display_url": "jorgeartware.com",
+                    "indices": [
+                      0,
+                      23
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 106,
+            "friends_count": 406,
+            "listed_count": 2,
+            "created_at": "Mon Aug 06 23:35:25 +0000 2012",
+            "favourites_count": 123,
+            "utc_offset": -18000,
+            "time_zone": "Central Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 165,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "9E947B",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000083987267/7b0f8d83e133d65cf2591d9a19a26aa1.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000083987267/7b0f8d83e133d65cf2591d9a19a26aa1.jpeg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/625540503719686144/qRwHfiPI_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/625540503719686144/qRwHfiPI_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/741684798/1398691119",
+            "profile_link_color": "2A60A0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "quoted_status_id": 713935575745585200,
+          "quoted_status_id_str": "713935575745585152",
+          "quoted_status": {
+            "created_at": "Sun Mar 27 03:48:00 +0000 2016",
+            "id": 713935575745585200,
+            "id_str": "713935575745585152",
+            "text": "Ya estamos entrandole a node, pues #yolo de una vez #dockerizemos yo dockerizo, tu dockerizas, nosotros dockerizamos https://t.co/9jNEgzh9tt",
+            "entities": {
+              "hashtags": [
+                {
+                  "text": "yolo",
+                  "indices": [
+                    35,
+                    40
+                  ]
+                },
+                {
+                  "text": "dockerizemos",
+                  "indices": [
+                    52,
+                    65
+                  ]
+                }
+              ],
+              "symbols": [],
+              "user_mentions": [],
+              "urls": [
+                {
+                  "url": "https://t.co/9jNEgzh9tt",
+                  "expanded_url": "http://twitter.com/nodejsmx/status/713935575745585152/photo/1",
+                  "display_url": "pic.twitter.com/9jNEgzh9tt",
+                  "indices": [
+                    117,
+                    140
+                  ]
+                }
+              ]
+            },
+            "truncated": false,
+            "metadata": {
+              "iso_language_code": "en",
+              "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+              "id": 2788970869,
+              "id_str": "2788970869",
+              "name": "Node.js México",
+              "screen_name": "nodejsmx",
+              "location": "México",
+              "description": "Comunidad extraoficial de Noders y Javascripters en México.\nNod to the noders!",
+              "url": "http://t.co/KrsyVdMOqG",
+              "entities": {
+                "url": {
+                  "urls": [
+                    {
+                      "url": "http://t.co/KrsyVdMOqG",
+                      "expanded_url": "http://www.nodejs.org.mx",
+                      "display_url": "nodejs.org.mx",
+                      "indices": [
+                        0,
+                        22
+                      ]
+                    }
+                  ]
+                },
+                "description": {
+                  "urls": []
+                }
+              },
+              "protected": false,
+              "followers_count": 89,
+              "friends_count": 9,
+              "listed_count": 4,
+              "created_at": "Thu Sep 04 01:34:10 +0000 2014",
+              "favourites_count": 4,
+              "utc_offset": -25200,
+              "time_zone": "Pacific Time (US & Canada)",
+              "geo_enabled": true,
+              "verified": false,
+              "statuses_count": 30,
+              "lang": "en",
+              "contributors_enabled": false,
+              "is_translator": false,
+              "is_translation_enabled": false,
+              "profile_background_color": "C0DEED",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+              "profile_background_tile": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/2788970869/1409794753",
+              "profile_link_color": "0084B4",
+              "profile_sidebar_border_color": "C0DEED",
+              "profile_sidebar_fill_color": "DDEEF6",
+              "profile_text_color": "333333",
+              "profile_use_background_image": true,
+              "has_extended_profile": false,
+              "default_profile": true,
+              "default_profile_image": false,
+              "following": false,
+              "follow_request_sent": false,
+              "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": {
+              "id": "25530ba03b7d90c6",
+              "url": "https://api.twitter.com/1.1/geo/id/25530ba03b7d90c6.json",
+              "place_type": "country",
+              "name": "Mexico",
+              "full_name": "Mexico",
+              "country_code": "MX",
+              "country": "México",
+              "contained_within": [],
+              "bounding_box": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      -118.4038571,
+                      14.5319181
+                    ],
+                    [
+                      -86.7122178,
+                      14.5319181
+                    ],
+                    [
+                      -86.7122178,
+                      32.718919
+                    ],
+                    [
+                      -118.4038571,
+                      32.718919
+                    ]
+                  ]
+                ]
+              },
+              "attributes": {}
+            },
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 1,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "es"
+          },
+          "is_quote_status": true,
+          "retweet_count": 0,
+          "favorite_count": 1,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+        },
+        {
+          "created_at": "Sun Mar 27 03:48:00 +0000 2016",
+          "id": 713935575745585200,
+          "id_str": "713935575745585152",
+          "text": "Ya estamos entrandole a node, pues #yolo de una vez #dockerizemos yo dockerizo, tu dockerizas, nosotros dockerizamos https://t.co/9jNEgzh9tt",
+          "entities": {
+            "hashtags": [
+              {
+                "text": "yolo",
+                "indices": [
+                  35,
+                  40
+                ]
+              },
+              {
+                "text": "dockerizemos",
+                "indices": [
+                  52,
+                  65
+                ]
+              }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+              {
+                "url": "https://t.co/9jNEgzh9tt",
+                "expanded_url": "http://twitter.com/nodejsmx/status/713935575745585152/photo/1",
+                "display_url": "pic.twitter.com/9jNEgzh9tt",
+                "indices": [
+                  117,
+                  140
+                ]
+              }
+            ]
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 2788970869,
+            "id_str": "2788970869",
+            "name": "Node.js México",
+            "screen_name": "nodejsmx",
+            "location": "México",
+            "description": "Comunidad extraoficial de Noders y Javascripters en México.\nNod to the noders!",
+            "url": "http://t.co/KrsyVdMOqG",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "http://t.co/KrsyVdMOqG",
+                    "expanded_url": "http://www.nodejs.org.mx",
+                    "display_url": "nodejs.org.mx",
+                    "indices": [
+                      0,
+                      22
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 89,
+            "friends_count": 9,
+            "listed_count": 4,
+            "created_at": "Thu Sep 04 01:34:10 +0000 2014",
+            "favourites_count": 4,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 30,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2788970869/1409794753",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": {
+            "id": "25530ba03b7d90c6",
+            "url": "https://api.twitter.com/1.1/geo/id/25530ba03b7d90c6.json",
+            "place_type": "country",
+            "name": "Mexico",
+            "full_name": "Mexico",
+            "country_code": "MX",
+            "country": "México",
+            "contained_within": [],
+            "bounding_box": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -118.4038571,
+                    14.5319181
+                  ],
+                  [
+                    -86.7122178,
+                    14.5319181
+                  ],
+                  [
+                    -86.7122178,
+                    32.718919
+                  ],
+                  [
+                    -118.4038571,
+                    32.718919
+                  ]
+                ]
+              ]
+            },
+            "attributes": {}
+          },
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 1,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "es"
+        },
+        {
+          "created_at": "Sat Mar 26 19:06:10 +0000 2016",
+          "id": 713804253832196100,
+          "id_str": "713804253832196097",
+          "text": "Estamos bien a gusto cheleando en el hackaton de #nodejsmx",
+          "entities": {
+            "hashtags": [
+              {
+                "text": "nodejsmx",
+                "indices": [
+                  49,
+                  58
+                ]
+              }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 2788970869,
+            "id_str": "2788970869",
+            "name": "Node.js México",
+            "screen_name": "nodejsmx",
+            "location": "México",
+            "description": "Comunidad extraoficial de Noders y Javascripters en México.\nNod to the noders!",
+            "url": "http://t.co/KrsyVdMOqG",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "http://t.co/KrsyVdMOqG",
+                    "expanded_url": "http://www.nodejs.org.mx",
+                    "display_url": "nodejs.org.mx",
+                    "indices": [
+                      0,
+                      22
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 89,
+            "friends_count": 9,
+            "listed_count": 4,
+            "created_at": "Thu Sep 04 01:34:10 +0000 2014",
+            "favourites_count": 4,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 30,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2788970869/1409794753",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": {
+            "id": "305867481351611b",
+            "url": "https://api.twitter.com/1.1/geo/id/305867481351611b.json",
+            "place_type": "city",
+            "name": "San Pedro Garza García",
+            "full_name": "San Pedro Garza García, Nuevo León",
+            "country_code": "MX",
+            "country": "México",
+            "contained_within": [],
+            "bounding_box": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -100.425188,
+                    25.5835569
+                  ],
+                  [
+                    -100.3068775,
+                    25.5835569
+                  ],
+                  [
+                    -100.3068775,
+                    25.7170179
+                  ],
+                  [
+                    -100.425188,
+                    25.7170179
+                  ]
+                ]
+              ]
+            },
+            "attributes": {}
+          },
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 1,
+          "favorited": false,
+          "retweeted": false,
+          "lang": "es"
+        },
+        {
+          "created_at": "Sat Mar 26 19:05:38 +0000 2016",
+          "id": 713804119522148400,
+          "id_str": "713804119522148352",
+          "text": "Aqui dandole al #nodejsmx",
+          "entities": {
+            "hashtags": [
+              {
+                "text": "nodejsmx",
+                "indices": [
+                  16,
+                  25
+                ]
+              }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "pt",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 96613503,
+            "id_str": "96613503",
+            "name": "Joel Humberto Gomez",
+            "screen_name": "DezkaReid",
+            "location": "",
+            "description": "Egresado de la FEI, licenciado en informática, soñador, desarrollador, algo de poeta y escritor :) publicista y pseudo-administrador de redes",
+            "url": null,
+            "entities": {
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 730,
+            "friends_count": 869,
+            "listed_count": 21,
+            "created_at": "Sun Dec 13 19:54:11 +0000 2009",
+            "favourites_count": 940,
+            "utc_offset": -21600,
+            "time_zone": "Mexico City",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 7560,
+            "lang": "es",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/611738254/yq4jsl67b6i3h8tmik80.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/611738254/yq4jsl67b6i3h8tmik80.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/559523902989156352/KE4buVK__normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/559523902989156352/KE4buVK__normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/96613503/1381877807",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": {
+            "id": "305867481351611b",
+            "url": "https://api.twitter.com/1.1/geo/id/305867481351611b.json",
+            "place_type": "city",
+            "name": "San Pedro Garza García",
+            "full_name": "San Pedro Garza García, Nuevo León",
+            "country_code": "MX",
+            "country": "México",
+            "contained_within": [],
+            "bounding_box": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -100.425188,
+                    25.5835569
+                  ],
+                  [
+                    -100.3068775,
+                    25.5835569
+                  ],
+                  [
+                    -100.3068775,
+                    25.7170179
+                  ],
+                  [
+                    -100.425188,
+                    25.7170179
+                  ]
+                ]
+              ]
+            },
+            "attributes": {}
+          },
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 3,
+          "favorited": false,
+          "retweeted": false,
+          "lang": "pt"
+        },
+        {
+          "created_at": "Sat Mar 26 18:57:22 +0000 2016",
+          "id": 713802038035947500,
+          "id_str": "713802038035947520",
+          "text": "testing #nodejsmx",
+          "entities": {
+            "hashtags": [
+              {
+                "text": "nodejsmx",
+                "indices": [
+                  8,
+                  17
+                ]
+              }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 63826439,
+            "id_str": "63826439",
+            "name": "Luis Alanis",
+            "screen_name": "gizmo2040",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 25,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Fri Aug 07 21:06:15 +0000 2009",
+            "favourites_count": 0,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 24,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1A1B1F",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/352375880/gremlins_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/352375880/gremlins_normal.jpg",
+            "profile_link_color": "2FC2EF",
+            "profile_sidebar_border_color": "181A1E",
+            "profile_sidebar_fill_color": "252429",
+            "profile_text_color": "666666",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 2,
+          "favorited": false,
+          "retweeted": false,
+          "lang": "en"
+        },
+        {
+          "created_at": "Sat Mar 26 06:45:18 +0000 2016",
+          "id": 713617808379273200,
+          "id_str": "713617808379273216",
+          "text": "Wow, I'm learning to animate svg vectors on web, what a beautiful challenge I ended up designing for our @nodejsmx community, bring it on!",
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+              {
+                "screen_name": "nodejsmx",
+                "name": "Node.js México",
+                "id": 2788970869,
+                "id_str": "2788970869",
+                "indices": [
+                  105,
+                  114
+                ]
+              }
+            ],
+            "urls": []
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 741684798,
+            "id_str": "741684798",
+            "name": "Jorge Arturo",
+            "screen_name": "JorgeArtware",
+            "location": "0x1008FF1B",
+            "description": "// Autodidact & nomad; Making ZenX of the universe. // Community organizer @nodejsmx [spanish=@retamozart]",
+            "url": "https://t.co/W0djGBHjOJ",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "https://t.co/W0djGBHjOJ",
+                    "expanded_url": "http://jorgeartware.com",
+                    "display_url": "jorgeartware.com",
+                    "indices": [
+                      0,
+                      23
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 106,
+            "friends_count": 406,
+            "listed_count": 2,
+            "created_at": "Mon Aug 06 23:35:25 +0000 2012",
+            "favourites_count": 123,
+            "utc_offset": -18000,
+            "time_zone": "Central Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 165,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "9E947B",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000083987267/7b0f8d83e133d65cf2591d9a19a26aa1.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000083987267/7b0f8d83e133d65cf2591d9a19a26aa1.jpeg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/625540503719686144/qRwHfiPI_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/625540503719686144/qRwHfiPI_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/741684798/1398691119",
+            "profile_link_color": "2A60A0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 0,
+          "favorited": false,
+          "retweeted": false,
+          "lang": "en"
+        },
+        {
+          "created_at": "Sat Mar 26 06:42:09 +0000 2016",
+          "id": 713617014519177200,
+          "id_str": "713617014519177216",
+          "text": "Wow, estoy aprendiendo a animar svg vectors en web, que bonito reto de proyecto terminé diseñando para @nodejsmx sin querer haha va a doler!",
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+              {
+                "screen_name": "nodejsmx",
+                "name": "Node.js México",
+                "id": 2788970869,
+                "id_str": "2788970869",
+                "indices": [
+                  103,
+                  112
+                ]
+              }
+            ],
+            "urls": []
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 86991806,
+            "id_str": "86991806",
+            "name": "Jorge Arturo",
+            "screen_name": "RetaMozart",
+            "location": "Internet",
+            "description": "Como @jorgeartware pero en español y un poco más chiflado. // Escritor ocasional // Cinefilo aspirante a productor // Empresario informático",
+            "url": "https://t.co/uHQloF4zQQ",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "https://t.co/uHQloF4zQQ",
+                    "expanded_url": "http://jorgeretamoza.com",
+                    "display_url": "jorgeretamoza.com",
+                    "indices": [
+                      0,
+                      23
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 43,
+            "friends_count": 52,
+            "listed_count": 1,
+            "created_at": "Mon Nov 02 17:56:51 +0000 2009",
+            "favourites_count": 19,
+            "utc_offset": -18000,
+            "time_zone": "Central Time (US & Canada)",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 216,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "1A1B1F",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/698042306667028482/eTAleZuc_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/698042306667028482/eTAleZuc_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/86991806/1455261244",
+            "profile_link_color": "2FC2EF",
+            "profile_sidebar_border_color": "181A1E",
+            "profile_sidebar_fill_color": "252429",
+            "profile_text_color": "666666",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 0,
+          "favorited": false,
+          "retweeted": false,
+          "lang": "es"
+        },
+        {
+          "created_at": "Sat Mar 26 00:12:29 +0000 2016",
+          "id": 713518952794558500,
+          "id_str": "713518952794558464",
+          "text": "A partir de las 11am! https://t.co/PM109jGVtT https://t.co/dtVs6ZFvxE",
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+              {
+                "url": "https://t.co/PM109jGVtT",
+                "expanded_url": "http://www.meetup.com/nodejsmx/events/229681949/",
+                "display_url": "meetup.com/nodejsmx/event…",
+                "indices": [
+                  22,
+                  45
+                ]
+              },
+              {
+                "url": "https://t.co/dtVs6ZFvxE",
+                "expanded_url": "http://twitter.com/nodejsmx/status/713518952794558464/photo/1",
+                "display_url": "pic.twitter.com/dtVs6ZFvxE",
+                "indices": [
+                  46,
+                  69
+                ]
+              }
+            ]
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 2788970869,
+            "id_str": "2788970869",
+            "name": "Node.js México",
+            "screen_name": "nodejsmx",
+            "location": "México",
+            "description": "Comunidad extraoficial de Noders y Javascripters en México.\nNod to the noders!",
+            "url": "http://t.co/KrsyVdMOqG",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "http://t.co/KrsyVdMOqG",
+                    "expanded_url": "http://www.nodejs.org.mx",
+                    "display_url": "nodejs.org.mx",
+                    "indices": [
+                      0,
+                      22
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 89,
+            "friends_count": 9,
+            "listed_count": 4,
+            "created_at": "Thu Sep 04 01:34:10 +0000 2014",
+            "favourites_count": 4,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 30,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2788970869/1409794753",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 0,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "es"
+        },
+        {
+          "created_at": "Fri Mar 25 15:10:16 +0000 2016",
+          "id": 713382501054562300,
+          "id_str": "713382501054562305",
+          "text": "Meme listo... ahora a buscar en modo berserker.\nhttps://t.co/00FgxQAKN0",
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+              {
+                "url": "https://t.co/00FgxQAKN0",
+                "expanded_url": "http://i.imgur.com/lZYtaN5.png",
+                "display_url": "i.imgur.com/lZYtaN5.png",
+                "indices": [
+                  48,
+                  71
+                ]
+              }
+            ]
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 2788970869,
+            "id_str": "2788970869",
+            "name": "Node.js México",
+            "screen_name": "nodejsmx",
+            "location": "México",
+            "description": "Comunidad extraoficial de Noders y Javascripters en México.\nNod to the noders!",
+            "url": "http://t.co/KrsyVdMOqG",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "http://t.co/KrsyVdMOqG",
+                    "expanded_url": "http://www.nodejs.org.mx",
+                    "display_url": "nodejs.org.mx",
+                    "indices": [
+                      0,
+                      22
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 89,
+            "friends_count": 9,
+            "listed_count": 4,
+            "created_at": "Thu Sep 04 01:34:10 +0000 2014",
+            "favourites_count": 4,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 30,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2788970869/1409794753",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 0,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "es"
+        },
+        {
+          "created_at": "Fri Mar 25 06:52:53 +0000 2016",
+          "id": 713257329114787800,
+          "id_str": "713257329114787840",
+          "text": "RT @psypersky: Flagear, Harcodear, Pushear, Pullear, Rebasear, Lintear, Swtichear... Los programadores somos unos pochos hahahaha",
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+              {
+                "screen_name": "psypersky",
+                "name": "Ruben Alcazar",
+                "id": 49901405,
+                "id_str": "49901405",
+                "indices": [
+                  3,
+                  13
+                ]
+              }
+            ],
+            "urls": []
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 2788970869,
+            "id_str": "2788970869",
+            "name": "Node.js México",
+            "screen_name": "nodejsmx",
+            "location": "México",
+            "description": "Comunidad extraoficial de Noders y Javascripters en México.\nNod to the noders!",
+            "url": "http://t.co/KrsyVdMOqG",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "http://t.co/KrsyVdMOqG",
+                    "expanded_url": "http://www.nodejs.org.mx",
+                    "display_url": "nodejs.org.mx",
+                    "indices": [
+                      0,
+                      22
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 89,
+            "friends_count": 9,
+            "listed_count": 4,
+            "created_at": "Thu Sep 04 01:34:10 +0000 2014",
+            "favourites_count": 4,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 30,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2788970869/1409794753",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "retweeted_status": {
+            "created_at": "Thu Mar 24 19:23:23 +0000 2016",
+            "id": 713083808556277800,
+            "id_str": "713083808556277760",
+            "text": "Flagear, Harcodear, Pushear, Pullear, Rebasear, Lintear, Swtichear... Los programadores somos unos pochos hahahaha",
+            "entities": {
+              "hashtags": [],
+              "symbols": [],
+              "user_mentions": [],
+              "urls": []
+            },
+            "truncated": false,
+            "metadata": {
+              "iso_language_code": "es",
+              "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+              "id": 49901405,
+              "id_str": "49901405",
+              "name": "Ruben Alcazar",
+              "screen_name": "psypersky",
+              "location": "México",
+              "description": "Developer and Startup Fan",
+              "url": null,
+              "entities": {
+                "description": {
+                  "urls": []
+                }
+              },
+              "protected": false,
+              "followers_count": 124,
+              "friends_count": 196,
+              "listed_count": 4,
+              "created_at": "Tue Jun 23 06:00:14 +0000 2009",
+              "favourites_count": 353,
+              "utc_offset": -18000,
+              "time_zone": "Central Time (US & Canada)",
+              "geo_enabled": true,
+              "verified": false,
+              "statuses_count": 921,
+              "lang": "es",
+              "contributors_enabled": false,
+              "is_translator": false,
+              "is_translation_enabled": false,
+              "profile_background_color": "000000",
+              "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+              "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+              "profile_background_tile": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/622569086111756288/Z_qRRJ6r_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/622569086111756288/Z_qRRJ6r_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/49901405/1399261233",
+              "profile_link_color": "DD2E44",
+              "profile_sidebar_border_color": "000000",
+              "profile_sidebar_fill_color": "000000",
+              "profile_text_color": "000000",
+              "profile_use_background_image": false,
+              "has_extended_profile": true,
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": false,
+              "follow_request_sent": false,
+              "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "es"
+          },
+          "is_quote_status": false,
+          "retweet_count": 1,
+          "favorite_count": 0,
+          "favorited": false,
+          "retweeted": false,
+          "lang": "es"
+        },
+        {
+          "created_at": "Fri Mar 25 03:05:07 +0000 2016",
+          "id": 713200009475260400,
+          "id_str": "713200009475260416",
+          "text": "RT @JorgeArtware: When we were younger and free... ♪ https://t.co/yILLD9PJRb",
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+              {
+                "screen_name": "JorgeArtware",
+                "name": "Jorge Arturo",
+                "id": 741684798,
+                "id_str": "741684798",
+                "indices": [
+                  3,
+                  16
+                ]
+              }
+            ],
+            "urls": [
+              {
+                "url": "https://t.co/yILLD9PJRb",
+                "expanded_url": "http://twitter.com/JorgeArtware/status/713197113241284608/photo/1",
+                "display_url": "pic.twitter.com/yILLD9PJRb",
+                "indices": [
+                  53,
+                  76
+                ]
+              }
+            ]
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 2788970869,
+            "id_str": "2788970869",
+            "name": "Node.js México",
+            "screen_name": "nodejsmx",
+            "location": "México",
+            "description": "Comunidad extraoficial de Noders y Javascripters en México.\nNod to the noders!",
+            "url": "http://t.co/KrsyVdMOqG",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "http://t.co/KrsyVdMOqG",
+                    "expanded_url": "http://www.nodejs.org.mx",
+                    "display_url": "nodejs.org.mx",
+                    "indices": [
+                      0,
+                      22
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 89,
+            "friends_count": 9,
+            "listed_count": 4,
+            "created_at": "Thu Sep 04 01:34:10 +0000 2014",
+            "favourites_count": 4,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 30,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2788970869/1409794753",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "retweeted_status": {
+            "created_at": "Fri Mar 25 02:53:37 +0000 2016",
+            "id": 713197113241284600,
+            "id_str": "713197113241284608",
+            "text": "When we were younger and free... ♪ https://t.co/yILLD9PJRb",
+            "entities": {
+              "hashtags": [],
+              "symbols": [],
+              "user_mentions": [],
+              "urls": [
+                {
+                  "url": "https://t.co/yILLD9PJRb",
+                  "expanded_url": "http://twitter.com/JorgeArtware/status/713197113241284608/photo/1",
+                  "display_url": "pic.twitter.com/yILLD9PJRb",
+                  "indices": [
+                    35,
+                    58
+                  ]
+                }
+              ]
+            },
+            "truncated": false,
+            "metadata": {
+              "iso_language_code": "en",
+              "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+              "id": 741684798,
+              "id_str": "741684798",
+              "name": "Jorge Arturo",
+              "screen_name": "JorgeArtware",
+              "location": "0x1008FF1B",
+              "description": "// Autodidact & nomad; Making ZenX of the universe. // Community organizer @nodejsmx [spanish=@retamozart]",
+              "url": "https://t.co/W0djGBHjOJ",
+              "entities": {
+                "url": {
+                  "urls": [
+                    {
+                      "url": "https://t.co/W0djGBHjOJ",
+                      "expanded_url": "http://jorgeartware.com",
+                      "display_url": "jorgeartware.com",
+                      "indices": [
+                        0,
+                        23
+                      ]
+                    }
+                  ]
+                },
+                "description": {
+                  "urls": []
+                }
+              },
+              "protected": false,
+              "followers_count": 106,
+              "friends_count": 406,
+              "listed_count": 2,
+              "created_at": "Mon Aug 06 23:35:25 +0000 2012",
+              "favourites_count": 123,
+              "utc_offset": -18000,
+              "time_zone": "Central Time (US & Canada)",
+              "geo_enabled": false,
+              "verified": false,
+              "statuses_count": 165,
+              "lang": "en",
+              "contributors_enabled": false,
+              "is_translator": false,
+              "is_translation_enabled": false,
+              "profile_background_color": "9E947B",
+              "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000083987267/7b0f8d83e133d65cf2591d9a19a26aa1.jpeg",
+              "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000083987267/7b0f8d83e133d65cf2591d9a19a26aa1.jpeg",
+              "profile_background_tile": false,
+              "profile_image_url": "http://pbs.twimg.com/profile_images/625540503719686144/qRwHfiPI_normal.jpg",
+              "profile_image_url_https": "https://pbs.twimg.com/profile_images/625540503719686144/qRwHfiPI_normal.jpg",
+              "profile_banner_url": "https://pbs.twimg.com/profile_banners/741684798/1398691119",
+              "profile_link_color": "2A60A0",
+              "profile_sidebar_border_color": "000000",
+              "profile_sidebar_fill_color": "EFEFEF",
+              "profile_text_color": "333333",
+              "profile_use_background_image": true,
+              "has_extended_profile": false,
+              "default_profile": false,
+              "default_profile_image": false,
+              "following": true,
+              "follow_request_sent": false,
+              "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 1,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+          },
+          "is_quote_status": false,
+          "retweet_count": 1,
+          "favorite_count": 0,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+        },
+        {
+          "created_at": "Thu Mar 24 21:55:06 +0000 2016",
+          "id": 713121990513713200,
+          "id_str": "713121990513713152",
+          "text": "Gitformación que cura.\nhttps://t.co/TepJZAe7uF",
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+              {
+                "url": "https://t.co/TepJZAe7uF",
+                "expanded_url": "https://media.giphy.com/media/EujClwShzbdDy/giphy.gif",
+                "display_url": "media.giphy.com/media/EujClwSh…",
+                "indices": [
+                  23,
+                  46
+                ]
+              }
+            ]
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "und",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 2788970869,
+            "id_str": "2788970869",
+            "name": "Node.js México",
+            "screen_name": "nodejsmx",
+            "location": "México",
+            "description": "Comunidad extraoficial de Noders y Javascripters en México.\nNod to the noders!",
+            "url": "http://t.co/KrsyVdMOqG",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "http://t.co/KrsyVdMOqG",
+                    "expanded_url": "http://www.nodejs.org.mx",
+                    "display_url": "nodejs.org.mx",
+                    "indices": [
+                      0,
+                      22
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 89,
+            "friends_count": 9,
+            "listed_count": 4,
+            "created_at": "Thu Sep 04 01:34:10 +0000 2014",
+            "favourites_count": 4,
+            "utc_offset": -25200,
+            "time_zone": "Pacific Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 30,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/507342037130043393/wBMiZDff_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2788970869/1409794753",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 0,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "und"
+        },
+        {
+          "created_at": "Mon Mar 21 23:32:50 +0000 2016",
+          "id": 712059421459808300,
+          "id_str": "712059421459808256",
+          "text": "@nodejsmx Here i'am :)",
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+              {
+                "screen_name": "nodejsmx",
+                "name": "Node.js México",
+                "id": 2788970869,
+                "id_str": "2788970869",
+                "indices": [
+                  0,
+                  9
+                ]
+              }
+            ],
+            "urls": []
+          },
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "in_reply_to_status_id": 704100917809958900,
+          "in_reply_to_status_id_str": "704100917809958912",
+          "in_reply_to_user_id": 2788970869,
+          "in_reply_to_user_id_str": "2788970869",
+          "in_reply_to_screen_name": "nodejsmx",
+          "user": {
+            "id": 72743875,
+            "id_str": "72743875",
+            "name": "Batnieluyo",
+            "screen_name": "batnieluyo",
+            "location": "México",
+            "description": "Full-Stack, NodeJS, Laravel, MongoDB, UI, UX, Scrum Resident. Growth Hacker, Troller & Yuccie",
+            "url": null,
+            "entities": {
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 498,
+            "friends_count": 452,
+            "listed_count": 20,
+            "created_at": "Wed Sep 09 02:43:20 +0000 2009",
+            "favourites_count": 367,
+            "utc_offset": -21600,
+            "time_zone": "Mexico City",
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 8298,
+            "lang": "es",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F01D83",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/517050798757265408/rUWrK104.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/517050798757265408/rUWrK104.jpeg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/479975773688700929/6hj7sWr9_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/479975773688700929/6hj7sWr9_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/72743875/1408038614",
+            "profile_link_color": "4A913C",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "E8FAFF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 0,
+          "favorite_count": 0,
+          "favorited": false,
+          "retweeted": false,
+          "lang": "en"
+        }
+      ],
+      "search_metadata": {
+        "completed_in": 0.032,
+        "max_id": 713939503069532200,
+        "max_id_str": "713939503069532161",
+        "query": "nodejsmx",
+        "refresh_url": "?since_id=713939503069532161&q=nodejsmx&include_entities=1",
+        "count": 15,
+        "since_id": 0,
+        "since_id_str": "0"
+      }
+    },
+    "headers": {
+      "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+      "connection": "close",
+      "content-disposition": "attachment; filename=json.json",
+      "content-length": "43640",
+      "content-type": "application/json;charset=utf-8",
+      "date": "Tue, 29 Mar 2016 09:16:56 GMT",
+      "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+      "last-modified": "Tue, 29 Mar 2016 09:16:56 GMT",
+      "pragma": "no-cache",
+      "server": "tsa_b",
+      "set-cookie": [
+        "lang=en; Path=/",
+        "guest_id=v1%3A145924301643490378; Domain=.twitter.com; Path=/; Expires=Thu, 29-Mar-2018 09:16:56 UTC"
+      ],
+      "status": "200 OK",
+      "strict-transport-security": "max-age=631138519",
+      "x-access-level": "read-write",
+      "x-connection-hash": "1943afcc4e6de58ad7e4256368b41522",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-rate-limit-limit": "180",
+      "x-rate-limit-remaining": "176",
+      "x-rate-limit-reset": "1459243074",
+      "x-response-time": "77",
+      "x-transaction": "c2d92496ff1fd023",
+      "x-twitter-response-tags": "BouncerCompliant",
+      "x-xss-protection": "1; mode=block"
+    }
+  }
+]

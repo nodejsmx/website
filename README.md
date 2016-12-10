@@ -1,34 +1,48 @@
-﻿Nodejsmx ver 2.0
-===================
+﻿Nodejsmx website 2.0
+======================
+New, shiny and interactive nodejsmx's comunity website.
 
-El objetivo de la versión actual de la web ha sido una simple presentación semi-estática para dar a conocer los pocos eventos que ha habido y presentar a los organizadores principales por ciudad y mientras aclaraba las ideas y consultaba con los demás qué era lo mejor para la comunidad, para todos nosotros, esta versión seguirá online mientras desarrollamos la versión 2 entre todos.
+### Installation
 
-Con la nueva versión de la web, el objetivo es darle visibilidad a todos los participantes de una manera meritocrática.
-Es como un juego, tu participación vale y ese valor se ve reflejado visualmente en tiempo real en el mapa; 
+```
+npm install
+```
 
-- Tus twits (#nodejsmx).
-- Tus git commits.
-- Tu asistencia a las juntas. 
+### Running the server
 
-Toda tu colaboración hace la diferencia, es mostrado publicamente y se ve bonito! No solamente es jugar por jugar, tu actividad te puede conseguir tu siguiente trabajo u oportunidad de startup.
+```
+sails lift
+```
 
-#### Faltan por ahí unas ideas que me dieron Dani Osorio y Fernando Flores
+### Running tests
 
+```
+npm test
+```
+
+### Coding standards
+
+we follow the [airbnb es5 coding style](https://github.com/airbnb/javascript/tree/master/es5)
+
+Roadmap
 ----------
+The goal of the 2.0 version is to show the community's activity through an interactive map. The following events will be displayed:
 
-Diseño
+- Tweets (containing the hashtag #nodejsmx).
+- Git commits (from the nodejsmx github organization).
+- A list of future meetups (containing the tags/texts node, nodejs, nodejsmx). 
+
+
+UI specs
 --------
-Pagina principal antes de iniciar sesión
+Home page
 ![Página normal sin iniciar sesión](https://i.imgur.com/AkKplqc.jpg)
 
-Sesión iniciada
+Home page with a logged in user
 ![Página con sesión iniciada](https://i.imgur.com/uBP61XA.jpg)
 
-Explicación
+Badges/pins explanation
 ![Explicación de los elementos visuales](https://i.imgur.com/nSFgsMx.jpg)
 
-Ejemplo de detalle mostrado al poner el mouse sobre cualquier simbolito
+Showing the details on-clicking a badge/pin
 ![Ejemplo de detalle mostrado al poner el mouse sobre cualquier simbolito](https://i.imgur.com/RjNKs42.jpg)
-
-### Y para los perfiles de usuario viene una sorpresa!
-
